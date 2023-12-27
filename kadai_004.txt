@@ -1,0 +1,26 @@
+C:\Users\Owner\OneDrive\ドキュメント\侍テラコヤ\samurai> mkdir git_challenge
+C:\Users\Owner\OneDrive\ドキュメント\侍テラコヤ\samurai> cd git_challenge
+
+C:\Users\Owner\OneDrive\ドキュメント\侍テラコヤ\samurai\git_challenge> git init
+Initialized empty Git repository in C:/Users/Owner/OneDrive/ドキュメント/侍テラコヤ/samurai/git_challenge/.git/
+
+PS C:\Users\Owner\OneDrive\ドキュメント\侍テラコヤ\samurai\git_challenge> git add hello_world.txt      
+PS C:\Users\Owner\OneDrive\ドキュメント\侍テラコヤ\samurai\git_challenge> git commit -m "hello_world.txtを追加"
+>>
+[main (root-commit) a7833c7] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+PS C:\Users\Owner\OneDrive\ドキュメント\侍テラコヤ\samurai\git_challenge> git add hello_world.txt
+
+C:\Users\Owner\OneDrive\ドキュメント\侍テラコヤ\samurai\git_challenge> git commit -m "日本語訳を追加"
+[main c60925b] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\Owner\OneDrive\ドキュメント\侍テラコヤ\samurai\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Owner\OneDrive\ドキュメント\侍テラコヤ\samurai\git_challenge> git log --oneline            
+c60925b (HEAD -> main) 日本語訳を追加
+a7833c7 hello_world.txtを追加
+
